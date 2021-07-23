@@ -10,11 +10,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -24,8 +20,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![- Design for PC](./screenshot.jpg)
-![- Design for Mobile](./screenshot.jpg)
+![](./ProfileCardComponent-PC.png)
+![](./ProfileCardComponent-Mobile.png)
 
 ### Links
 
