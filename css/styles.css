@@ -1,0 +1,104 @@
+/* GENERAL PROPERTIES -----------------------------------------------*/
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+@font-face {
+  font-family: "KumbhSans Regular";
+  src: url("./fonts/KumbhSans-Regular.ttf");
+}
+@font-face {
+  font-family: "KumbhSans Bold";
+  src: url("./fonts/KumbhSans-Bold.ttf");
+}
+@font-face {
+  font-family: "KumbhSans Light";
+  src: url("./fonts/KumbhSans-Light.ttf");
+}
+body {
+  background-color: hsl(185, 75%, 39%);
+  background-image: url("../images/bg-pattern-top.svg");
+}
+/* END OF GENERAL PROPERTIES -------------------------------------------*/
+
+.content {
+  max-width: 1440px;
+  margin: 0px auto;
+}
+.profileCard {
+  width: 355px;
+  height: 380px;
+  margin: 0px auto;
+  margin-top: 120px;
+  text-align: center;
+  background-image: url("../images/bg-pattern-card.svg");
+  border-radius: 15px 15px;
+  overflow: hidden;
+  box-shadow: 2px 2px 10px rgba(114, 114, 114, 0.5);
+}
+header,
+section,
+.info,
+.stats {
+  width: 100%;
+}
+header {
+  height: 37%;
+}
+img {
+  width: 95px;
+  border: 4px solid #fff;
+  border-radius: 55px 55px;
+  margin-top: 90px;
+}
+section {
+  height: 63%;
+  background-color: #fff;
+  font-family: "KumbhSans Light";
+  font-size: 16px;
+  color: hsl(227, 10%, 46%);
+  line-height: 22px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  height: 62%;
+  justify-content: flex-end;
+}
+.nameAge {
+  margin-bottom: 5px;
+}
+.country {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+.stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 38%;
+  border-top: 1px solid #ededed;
+}
+.nameAge,
+.statData {
+  font-family: "KumbhSans Bold";
+  color: hsl(229, 23%, 23%);
+}
+#age {
+  font-family: "KumbhSans Light" !important;
+  color: hsl(227, 10%, 46%);
+}
+.statTitle {
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+/* MEDIA QUERIES                               */
+@media (max-width: 375px) {
+  .profileCard {
+    width: 85%;
+  }
+}
+/* ------------------------------------------- */
